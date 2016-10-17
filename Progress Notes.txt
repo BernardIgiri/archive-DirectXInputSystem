@@ -1,0 +1,49 @@
+11/26/03
+------------------------------------------------------------------------------------------------------
+GLWINAPI has been very successful dramatically simplifying main.cpp providing an effective wrapper for
+the app window. It also includes a support for caputuring Virtual Keys Codes on WM_KEYDOWN events.
+
+It is now time to begin work on the input system.
+The Layout design has seen good progress.
+
+11/27/03
+------------------------------------------------------------------------------------------------------
+New Idea!  File Loader system, that runs on its on tread.
+
+Input Sys, Main, File Loader, Rendering = 4 main threads
+
+CINPUTVAR, CINPUTDEVICE, & CBUTTON have been finished. no errors after compilation
+
+11/28/03
+------------------------------------------------------------------------------------------------------
+CINPUTMAN has been completed.
+Direct input 8 wrapper complete.
+
+11/29/03
+------------------------------------------------------------------------------------------------------
+CINPUTMAN with Direct input 8 wrapper are now bug free.
+Combination tested successfully
+
+11/30/03
+------------------------------------------------------------------------------------------------------
+CINPUTMAN with Direct input 8 wrapper have been enhanced to support 8 button mice
+Test of error proofing has been successful.
+Stringed Input Processor code written.
+
+
+12/01/03
+------------------------------------------------------------------------------------------------------
+Direct input 8 wrapper has new mouse features added.
+
+12/05/03
+------------------------------------------------------------------------------------------------------
+Stringed Input Processor code passed it's test.
+
+12/12/03
+------------------------------------------------------------------------------------------------------
+The CTXTBUFF & CAUTOSTR classes pass their test.
+
+12/15/03
+------------------------------------------------------------------------------------------------------
+GLWINAPI has been made thread safe, though not bullet proof.  Will function safely with current
+features, added features may require further thread-safing revision.

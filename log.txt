@@ -1,0 +1,11 @@
+Type Face Manager message: Initialized Successfully.
+Intializing Input 2003 Demo Window.
+Initializing Consol...
+Consol: Adjusting to screen resolution.
+Intializing Input 2003 Demo Scene.
+Intializing Input 2003 Demo Input.
+Installing Keyboard...
+Creating buttons...
+Intialization of Demo Input Complete.
+Shutting Down Input 2003 Demo.
+Exiting Input 2003 Demo Window.
